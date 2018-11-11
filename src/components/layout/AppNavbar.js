@@ -64,6 +64,9 @@ class AppNavbar extends Component {
                     {auth.email}
                   </a>
                 </li>
+                <Link to="/settings" className="nav-link">
+                  Settings
+                </Link>
                 <li className="nav-item">
                   <a
                     href="#!"
@@ -84,12 +87,14 @@ class AppNavbar extends Component {
 
 AppNavbar.propTypes = {
   firebase: PropTypes.object.isRequired,
-  auth: PropTypes.object.isRequired
+  auth: PropTypes.object.isRequired,
+  settings: PropTypes.object.isRequired
 };
 
 export default compose(
   firebaseConnect(),
   connect((state, props) => ({
-    auth: state.firebase.auth
+    auth: state.firebase.auth,
+    settings: state.settings
   }))
 )(AppNavbar);

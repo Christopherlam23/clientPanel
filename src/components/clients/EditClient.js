@@ -123,7 +123,7 @@ class EditClient extends Component {
 
                 <input
                   type="submit"
-                  value="submit"
+                  value="Submit"
                   className="btn btn-primary btn-block"
                 />
               </form>
