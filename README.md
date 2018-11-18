@@ -40,15 +40,13 @@ Replace the content of firebaseConfig with yours.
 ==> Scroll Down
 
 ==> CLick on "Add Firebase to your web app"
-
-
-
-
+.
+.
+.
 To run the app, execute "npm start"
-
-
-
-
+.
+.
+.
 DONE :)
 
 
