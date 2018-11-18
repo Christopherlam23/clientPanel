@@ -5,6 +5,7 @@ Create your firebase Project:
 Under Develop/Database/Rules
 
 REPLACE:
+
     service cloud.firestore {
       match /databases/{database}/documents {
         match /{document=**} {
@@ -12,6 +13,7 @@ REPLACE:
         }
       }
     }
+    
 
 WITH:
     service cloud.firestore {
