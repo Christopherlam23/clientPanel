@@ -16,6 +16,7 @@ REPLACE:
     
 
 WITH:
+
     service cloud.firestore {
       match /databases/{database}/documents {
         match /{document=**} {
@@ -31,9 +32,13 @@ and execute "npm install".
 
 Go to src/store.js
 Replace the content of firebaseConfig with yours.
+
 ==> Click on Setting Icon on the left panel.
+
 ==> Project Settings
+
 ==> Scroll Down
+
 ==> CLick on "Add Firebase to your web app"
 
 
